@@ -17,7 +17,7 @@ Este proyecto es un portafolio web profesional construido íntegramente en Pytho
 - Limpieza: rm -rf .web (Para forzar la regeneración del frontend ante cambios estructurales).
 
 # 3. Code Style Guidelines
-- Reflex Standard: No utilizar HTML/CSS nativo; emplear exclusivamente los componentes y el sistema de estilos de Reflex (diccionarios Python).
+- Reflex Standard: No utilizar HTML/CSS nativo; emplear exclusivamente los componentes y el sistema de estilos de Reflex en su versión más moderna.
 
 - SDD Workflow: Es obligatorio seguir el pipeline: Spec -> Design -> Tasks -> Apply -> Verify. Ninguna línea de código debe escribirse sin una tarea previa validada.
 

@@ -7,5 +7,5 @@ def about(description: str) -> rx.Component:
     return rx.vstack(
         heading("Sobre mí"),
         rx.text(description),
-        spacing=[Size.SMALL.value, Size.DEFAULT.value]
+        spacing=Size.DEFAULT.value
     )
