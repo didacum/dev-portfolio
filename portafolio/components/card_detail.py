@@ -1,7 +1,7 @@
 import reflex as rx
 from portafolio.data import Extra
 
-from portafolio.styles.styles import IMAGE_HEIGHT, Size
+from portafolio.styles.styles import IMAGE_HEIGHT, Size, CARD_STYLE, LINK_STYLE
 
 
 def card_detail(extra: Extra) -> rx.Component:
@@ -16,16 +16,15 @@ def card_detail(extra: Extra) -> rx.Component:
                 ),
                 pb=Size.DEFAULT.value
             ),
-            rx.text.strong(extra.title),
+            rx.strong(extra.title),
             rx.text(
                 extra.description,
                 size=Size.SMALL.value,
                 color_scheme="gray"
             ),
-            width="100%",
+            **CARD_STYLE,
         ),
         href=extra.url,
         is_external=True,
-        text_decoration="none",
-        width="100%"
+        **LINK_STYLE,
     )
