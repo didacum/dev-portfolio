@@ -25,7 +25,7 @@ def media(data: Media) -> rx.Component:
                 "linkedin",
                 data.linkedin
             ),
-            spacing=Size.SMALL.value
+            spacing=[Size.ZERO.value, Size.SMALL.value]
         ),
         spacing=Size.SMALL.value,
         flex_direction=["column", "column", "row"]
