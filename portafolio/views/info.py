@@ -14,7 +14,7 @@ def info(title: str, info: list[Info]) -> rx.Component:
                 info_detail(item)
                 for item in info
             ],
-            spacing=Size.DEFAULT.value,
+        spacing=[Size.SMALL.value, Size.DEFAULT.value],
             width="100%"
         ),
         spacing=Size.DEFAULT.value,
