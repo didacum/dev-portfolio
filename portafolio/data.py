@@ -7,7 +7,7 @@ class Media:
     email: str
     cv: str
     github: str
-    likedin: str
+    linkedin: str
 
 
 @dataclass
