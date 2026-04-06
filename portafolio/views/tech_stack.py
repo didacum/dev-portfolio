@@ -20,7 +20,7 @@ def tech_stack(technologies: list[Technology]) -> rx.Component:
                 for technology in technologies
             ],
             wrap="wrap",
-            spacing=Size.SMALL.value
+            spacing=Size.DEFAULT.value
         ),
         spacing=Size.DEFAULT.value
     )

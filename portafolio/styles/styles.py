@@ -28,3 +28,12 @@ BASE_STYLE = {
         "--cursor-button": "pointer"
     }
 }
+
+CARD_STYLE = {
+    "width": "100%"
+}
+
+LINK_STYLE = {
+    "text_decoration": "none",
+    "width": "100%"
+}

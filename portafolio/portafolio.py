@@ -17,17 +17,17 @@ def index() -> rx.Component:
         rx.vstack(
             header(DATA),
             about(DATA.about),
-            rx.divider(),
+            rx.separator(),
             tech_stack(DATA.technologies),
             info("Experiencia", DATA.experience),
             info("Proyectos", DATA.projects),
             info("Formación", DATA.training),
             extra(DATA.extras),
-            rx.divider(),
+            rx.separator(),
             footer(DATA.media),
             spacing=Size.MEDIUM.value,
-            padding_x=EmSize.MEDIUM.value,
-            padding_y=EmSize.BIG.value,
+            padding_x=[EmSize.DEFAULT.value, EmSize.MEDIUM.value],
+            padding_y=[EmSize.MEDIUM.value, EmSize.BIG.value],
             max_width=MAX_WIDTH,
             width="100%"
         )

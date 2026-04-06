@@ -23,7 +23,7 @@ def media(data: Media) -> rx.Component:
             ),
             icon_button(
                 "linkedin",
-                data.likedin
+                data.linkedin
             ),
             spacing=Size.SMALL.value
         ),
