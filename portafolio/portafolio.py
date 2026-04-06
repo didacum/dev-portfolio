@@ -26,8 +26,8 @@ def index() -> rx.Component:
             rx.separator(),
             footer(DATA.media),
             spacing=Size.MEDIUM.value,
-            padding_x=EmSize.MEDIUM.value,
-            padding_y=EmSize.BIG.value,
+            padding_x=[EmSize.DEFAULT.value, EmSize.MEDIUM.value],
+            padding_y=[EmSize.MEDIUM.value, EmSize.BIG.value],
             max_width=MAX_WIDTH,
             width="100%"
         )
