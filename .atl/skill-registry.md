@@ -1,7 +1,7 @@
 # Skill Registry — portafolio-template
 
-Generated: 2026-04-01
-Stack: Python / Reflex 0.4.5
+Generated: 2026-04-06
+Stack: Python / Reflex 0.8.28.post1
 
 ## User Skills
 
