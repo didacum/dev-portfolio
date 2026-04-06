@@ -8,25 +8,23 @@ from portafolio.styles.styles import Size
 def extra(extras: list[Extra]) -> rx.Component:
     return rx.vstack(
         heading("Extra"),
-        rx.mobile_only(
-            rx.vstack(
-                *[
-                    card_detail(extra)
-                    for extra in extras
-                ],
-                spacing=Size.DEFAULT.value
-            ),
+        rx.vstack(
+            *[
+                card_detail(extra)
+                for extra in extras
+            ],
+            spacing=Size.DEFAULT.value,
+            display=rx.breakpoints(initial="flex", sm="none"),
             width="100%"
         ),
-        rx.tablet_and_desktop(
-            rx.grid(
-                *[
-                    card_detail(extra)
-                    for extra in extras
-                ],
-                spacing=Size.DEFAULT.value,
-                columns="3"
-            ),
+        rx.grid(
+            *[
+                card_detail(extra)
+                for extra in extras
+            ],
+            spacing=Size.DEFAULT.value,
+            columns="3",
+            display=rx.breakpoints(initial="none", sm="grid"),
             width="100%"
         ),
         spacing=Size.DEFAULT.value,
