@@ -17,36 +17,27 @@ def info_detail(info: Info) -> rx.Component:
                     size=Size.SMALL.value,
                     color_scheme="gray"
                 ),
-                rx.cond(
-                    info.technologies,
-                    rx.flex(
-                        *[
-                            rx.badge(
-                                rx.box(class_name=technology.icon),
-                                technology.name,
-                                color_scheme="gray"
-                            )
-                            for technology in info.technologies
-                        ],
-                        wrap="wrap",
-                        spacing=Size.SMALL.value
-                    )
-                ),
+                rx.flex(
+                    *[
+                        rx.badge(
+                            rx.box(class_name=technology.icon),
+                            technology.name,
+                            color_scheme="gray"
+                        )
+                        for technology in info.technologies
+                    ],
+                    wrap="wrap",
+                    spacing=Size.SMALL.value
+                ) if info.technologies else None,
                 rx.hstack(
-                    rx.cond(
-                        info.url != "",
-                        icon_button(
-                            "link",
-                            info.url
-                        )
-                    ),
-                    rx.cond(
-                        info.github != "",
-                        icon_button(
-                            "github",
-                            info.github
-                        )
-                    )
+                    icon_button(
+                        "link",
+                        info.url
+                    ) if info.url != "" else None,
+                    icon_button(
+                        "github",
+                        info.github
+                    ) if info.github != "" else None
                 ),
                 spacing=Size.SMALL.value,
                 width="100%"
@@ -54,29 +45,20 @@ def info_detail(info: Info) -> rx.Component:
             spacing=Size.DEFAULT.value,
             width="100%"
         ),
-        rx.cond(
-            info.image != "",
-            rx.image(
-                src=info.image,
-                height=IMAGE_HEIGHT,
-                width="auto",
-                border_radius=EmSize.DEFAULT.value,
-                object_fit="cover"
-            )
-        ),
+        rx.image(
+            src=info.image,
+            height=IMAGE_HEIGHT,
+            width="auto",
+            border_radius=EmSize.DEFAULT.value,
+            object_fit="cover"
+        ) if info.image != "" else None,
         rx.vstack(
-            rx.cond(
-                info.date != "",
-                rx.badge(info.date)
-            ),
-            rx.cond(
-                info.certificate != "",
-                icon_button(
-                    "shield-check",
-                    info.certificate,
-                    solid=True
-                )
-            ),
+            rx.badge(info.date) if info.date != "" else None,
+            icon_button(
+                "shield-check",
+                info.certificate,
+                solid=True
+            ) if info.certificate != "" else None,
             spacing=Size.SMALL.value,
             align="end"
         ),
