@@ -16,7 +16,7 @@ def card_detail(extra: Extra) -> rx.Component:
                 ),
                 pb=Size.DEFAULT.value
             ),
-            rx.text.strong(extra.title),
+            rx.strong(extra.title),
             rx.text(
                 extra.description,
                 size=Size.SMALL.value,
