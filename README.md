@@ -25,5 +25,6 @@ Este repositorio tiene una licencia dual para separar la arquitectura de softwar
 
 **1. Contenido y Activos Personales (Todos los derechos reservados)**
 Toda la información personal, datos, textos biográficos, el archivo `assets/data/data.json`, fotografías, imágenes (`assets/`), y currículum vitae (`cv.pdf`) son de mi exclusiva propiedad. **No se permite su copia, reproducción, clonación, distribución ni uso bajo ninguna circunstancia.** 
+
 **2. Código Fuente**
 La arquitectura base de este proyecto es un fork adaptado del [portafolio-template](https://github.com/mouredev/portafolio-template) original de Brais Moure, el cual se distribuye bajo la [Apache License 2.0](./LICENSE). Las modificaciones específicas, refactorizaciones y nuevos componentes añadidos en este repositorio son obra derivada y se proveen únicamente con fines de exhibición técnica. No autorizo la redistribución ni el uso comercial de mis modificaciones de software ("as-is") para crear otros portafolios web sin consentimiento previo.
