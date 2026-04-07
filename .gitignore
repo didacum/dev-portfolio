@@ -6,3 +6,8 @@ assets/external/
 .web
 __pycache__/
 public/
+
+# SDD & AI Agents
+.atl/
+openspec/
+README.backup.md
