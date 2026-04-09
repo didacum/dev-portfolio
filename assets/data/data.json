@@ -1,54 +1,48 @@
 {
-    "title": "Thomas A. Anderson (Neo) | Portafolio",
-    "description": "Soy Neo, posiblemente el mejor programador de la historia.",
+    "title": "Diego Sánchez Escribano | Portafolio",
+    "description": "Soy Diego, desarrollador de aplicaciones móviles para Android y iOS",
     "image": "/avatar.jpg",
     "avatar": "/avatar.jpg",
-    "name": "Thomas A. Anderson (Neo)",
-    "skill": "Programador, hacker y el Elegido",
-    "location": "Matrix y el mundo real",
+    "name": "Diego Sánchez Escribano",
+    "skill": "Mobile developer Android/iOS",
+    "location": "Madrid",
     "media": {
-        "email": "neo@metacortex.com",
+        "email": "sanchez.escribano.diego@gmail.com",
         "cv": "/data/cv.pdf",
-        "github": "https://github.com/thomasanderson",
-        "linkedin": "https://linkedin.com/in/thomasanderson"
+        "github": "https://github.com/didacum",
+        "linkedin": "https://www.linkedin.com/in/diego-sanchez-escribano/"
     },
-    "about": "Soy un programador inquieto con una doble vida, ya que trabajo en una prestigiosa empresa de software pero también he cometido todos los crímenes informáticos que existen. Tengo la sensación de que nada es lo que parece ser.",
+    "about": [
+        "El violín me enseñó que la precisión no es opcional.",
+        "Ahora aplico eso al código.",
+        "Estudiante de Ingeniería Informática con base en ciberseguridad y el foco puesto en mobile nativo — Android con Kotlin, iOS con Swift.",
+        "Aquí construyo. Aquí aprendo. Aquí fallo y corrijo."
+    ],
     "technologies": [
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Binario"
+            "icon": "devicon-kotlin-plain",
+            "name": "Kotlin"
         },
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Ensamblador"
+            "icon": "devicon-swift-plain",
+            "name": "Swift"
         },
         {
-            "icon": "devicon-devicon-plain",
-            "name": "COBOL"
+            "icon": "devicon-apple-original",
+            "name": "SwiftUI"
         },
         {
-            "icon": "devicon-c-plain",
-            "name": "C"
-        },
-        {
-            "icon": "devicon-python-plain",
-            "name": "Python"
+            "icon": "devicon-jetpackcompose-plain",
+            "name": "Jetpack Compose"
         }
     ],
     "experience": [
         {
-            "icon": "terminal",
-            "title": "Metacortex",
-            "subtitle": "Programador",
-            "description": "Programo software respetable desde un cubículo.",
-            "date": "1999"
-        },
-        {
-            "icon": "rabbit",
-            "title": "Nebuchadnezzar",
-            "subtitle": "El Elegido",
-            "description": "Me encargo de salvar el mundo.",
-            "date": "1999 - Actualidad"
+            "icon": "music_2",
+            "title": "Music Box Leaning",
+            "subtitle": "Coordinador y Profesor – Proyecto Grado Musical",
+            "description": "Coordinador y profesor en Music Box Learning desde 2020. Gestiono un proyecto educativo presente en 15 centros, con un equipo de 10 profesores y más de 100 alumnos al año. Me encargo de la planificación, la comunicación y de que las cosas pasen cuando tienen que pasar.",
+            "date": "2019"
         }
     ],
     "projects": [
@@ -89,20 +83,60 @@
     ],
     "training": [
         {
-            "icon": "backpack",
-            "title": "Central West Junior High",
-            "subtitle": "Una escuela",
-            "description": "Aprendí cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "icon": "graduation-cap",
+            "title": "UOC",
+            "subtitle": "Grado en Ingeniería Informática",
+            "description": "",
+            "date": "2024-2026",
+            "certificate": ""
         },
         {
             "icon": "graduation-cap",
-            "title": "Owen Patterson High",
-            "subtitle": "Otra escuela",
-            "description": "Aprendí más cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "title": "UNED",
+            "subtitle": "Grado en Ingeniería Informática",
+            "description": "",
+            "date": "2020-2024",
+            "certificate": ""
+        },
+        {
+            "icon": "graduation-cap",
+            "title": "UAM",
+            "subtitle": "Máster en formación del profesorado",
+            "description": "",
+            "date": "2018-2019",
+            "certificate": ""
+        },
+        {
+            "icon": "graduation-cap",
+            "title": "CSKG",
+            "subtitle": "Título Superior de Música",
+            "description": "",
+            "date": "2014-2018",
+            "certificate": ""
+        },
+        {
+            "icon": "cloud",
+            "title": "Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900)",
+            "subtitle": "Microsoft",
+            "description": "",
+            "date": "2024",
+            "certificate": "https://learn.microsoft.com/es-es/users/diegosanchezescribano-5402/credentials/5d10665d41594236?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+        },
+        {
+            "icon": "terminal",
+            "title": "eJPT - eLearnSecurity Junior Penetration Tester",
+            "subtitle": "INE",
+            "description": "",
+            "date": "2025",
+            "certificate": "https://certs.ine.com/34d3c457-4373-4701-a17a-bcd43bd15833#acc.Q3CqGxdo"
+        },
+        {
+            "icon": "languages",
+            "title": "C1 Advanced Certificate in English",
+            "subtitle": "Cambridge Assessment English",
+            "description": "",
+            "date": "2019",
+            "certificate": ""
         }
     ],
     "extras": [

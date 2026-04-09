@@ -21,7 +21,7 @@ class Info:
     icon: str
     title: str
     subtitle: str
-    description: str
+    description: str = ""
     date: str = ""
     certificate: str = ""
     technologies: list = field(default_factory=list)
@@ -54,7 +54,7 @@ class Data:
     skill: str
     location: str
     media: Media
-    about: str
+    about: list
     technologies: list
     experience: list
     projects: list
