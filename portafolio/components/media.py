@@ -9,8 +9,7 @@ def media(data: Media) -> rx.Component:
         icon_button(
             "mail",
             f"mailto:{data.email}",
-            data.email,
-            True
+            solid=True
         ),
         rx.hstack(
             icon_button(
