@@ -28,6 +28,7 @@ class Info:
     image: str = ""
     url: str = ""
     github: str = ""
+    platform: str = "none"
 
     def __post_init__(self):
         self.technologies = [

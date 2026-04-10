@@ -42,7 +42,8 @@
             "title": "Music Box Leaning",
             "subtitle": "Coordinador y Profesor – Proyecto Grado Musical",
             "description": "Coordinador y profesor en Music Box Learning desde 2020. Gestiono un proyecto educativo presente en 15 centros, con un equipo de 10 profesores y más de 100 alumnos al año. Me encargo de la planificación, la comunicación y de que las cosas pasen cuando tienen que pasar.",
-            "date": "2019"
+            "date": "2019",
+            "platform": "none"
         }
     ],
     "projects": [
@@ -63,7 +64,8 @@
             ],
             "image": "/project_1.jpg",
             "url": "https://matrix.fandom.com/wiki/MetaCortex",
-            "github": "https://github.com/thomasanderson"
+            "github": "https://github.com/thomasanderson",
+            "platform": "android"
         },
         {
             "icon": "bug-off",
@@ -78,7 +80,8 @@
             ],
             "image": "/project_2.jpg",
             "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
+            "github": "https://github.com/thomasanderson",
+            "platform": "ios"
         }
     ],
     "training": [
@@ -88,7 +91,8 @@
             "subtitle": "Grado en Ingeniería Informática",
             "description": "",
             "date": "2024-2026",
-            "certificate": ""
+            "certificate": "",
+            "platform": "none"
         },
         {
             "icon": "graduation-cap",
@@ -96,7 +100,8 @@
             "subtitle": "Grado en Ingeniería Informática",
             "description": "",
             "date": "2020-2024",
-            "certificate": ""
+            "certificate": "",
+            "platform": "none"
         },
         {
             "icon": "graduation-cap",
@@ -104,7 +109,8 @@
             "subtitle": "Máster en formación del profesorado",
             "description": "",
             "date": "2018-2019",
-            "certificate": ""
+            "certificate": "",
+            "platform": "none"
         },
         {
             "icon": "graduation-cap",
@@ -112,7 +118,8 @@
             "subtitle": "Título Superior de Música",
             "description": "",
             "date": "2014-2018",
-            "certificate": ""
+            "certificate": "",
+            "platform": "none"
         },
         {
             "icon": "cloud",
@@ -120,7 +127,8 @@
             "subtitle": "Microsoft",
             "description": "",
             "date": "2024",
-            "certificate": "https://learn.microsoft.com/es-es/users/diegosanchezescribano-5402/credentials/5d10665d41594236?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+            "certificate": "https://learn.microsoft.com/es-es/users/diegosanchezescribano-5402/credentials/5d10665d41594236?ref=https%3A%2F%2Fwww.linkedin.com%2F",
+            "platform": "none"
         },
         {
             "icon": "terminal",
@@ -128,7 +136,8 @@
             "subtitle": "INE",
             "description": "",
             "date": "2025",
-            "certificate": "https://certs.ine.com/34d3c457-4373-4701-a17a-bcd43bd15833#acc.Q3CqGxdo"
+            "certificate": "https://certs.ine.com/34d3c457-4373-4701-a17a-bcd43bd15833#acc.Q3CqGxdo",
+            "platform": "none"
         },
         {
             "icon": "languages",
@@ -136,7 +145,8 @@
             "subtitle": "Cambridge Assessment English",
             "description": "",
             "date": "2019",
-            "certificate": ""
+            "certificate": "",
+            "platform": "none"
         }
     ],
     "extras": [
