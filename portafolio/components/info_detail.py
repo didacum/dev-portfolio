@@ -5,10 +5,18 @@ from portafolio.data import Info
 from portafolio.styles.styles import IMAGE_HEIGHT, EmSize, Size
 
 
+PLATFORM_COLOR = {
+    "android": "violet",
+    "ios": "orange",
+    "none": "gray",
+}
+
+
 def info_detail(info: Info) -> rx.Component:
+    color = PLATFORM_COLOR.get(info.platform, "gray")
     return rx.flex(
         rx.hstack(
-            icon_badge(info.icon),
+            icon_badge(info.icon, color),
             rx.vstack(
                 rx.text.strong(info.title),
                 rx.text(info.subtitle),
@@ -22,7 +30,7 @@ def info_detail(info: Info) -> rx.Component:
                         rx.badge(
                             rx.box(class_name=technology.icon),
                             technology.name,
-                            color_scheme="gray"
+                            color_scheme=color
                         )
                         for technology in info.technologies
                     ],
@@ -32,11 +40,13 @@ def info_detail(info: Info) -> rx.Component:
                 rx.hstack(
                     icon_button(
                         "link",
-                        info.url
+                        info.url,
+                        color_scheme=color
                     ) if info.url != "" else None,
                     icon_button(
                         "github",
-                        info.github
+                        info.github,
+                        color_scheme=color
                     ) if info.github != "" else None
                 ),
                 spacing=Size.SMALL.value,
@@ -57,7 +67,8 @@ def info_detail(info: Info) -> rx.Component:
             icon_button(
                 "shield-check",
                 info.certificate,
-                solid=True
+                solid=True,
+                color_scheme=color
             ) if info.certificate != "" else None,
             spacing=Size.SMALL.value,
             align="end"
